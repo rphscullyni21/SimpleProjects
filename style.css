@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input,
+button {
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+}
+
+button {
+  background-color: lightskyblue;
+  border-radius: 25px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin: 4px 0;
+}
+.started {
+  background-color: #f9e79f; /* Light yellow for started tasks */
+}
+
+.not-started {
+  background-color: #f5b041; /* Light orange for not started tasks */
+}
+.finished {
+  background-color: #d9f7d9; /* Light green for finished tasks */
+}
