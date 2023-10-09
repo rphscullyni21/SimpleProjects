@@ -3,31 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To-Do List</title>
+    <title>Random Quotes Generator</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container">
-      <h1>To-Do List</h1>
-      <div class="input-group">
-        <input type="text" id="taskText" placeholder="Enter a task..." />
-        <input type="date" id="taskDate" />
-        <input type="time" id="taskTime" />
-        <button id="addTaskButton">Add Task</button>
-      </div>
-      <div id="dateOptions" class="hidden">
-        <button id="submitTaskButton">Submit Task</button>
-        <button id="editTaskButton">Edit Task</button>
-      </div>
-      <div class="task-list">
-        <select id="filterTasks" class="hidden">
-          <option value="all">All Tasks</option>
-          <option value="started">Started Tasks</option>
-          <option value="notStarted">Not Started Tasks</option>
-          <option value="completed">Completed Tasks</option>
-        </select>
-        <ul id="taskList"></ul>
-      </div>
+      <h1>Random Quotes Generator</h1>
+      <div id="quoteDisplay"></div>
+      <button id="newQuoteBtn">Get New Quote</button>
+      <button id="copyToNotepadBtn">Copy to Notepad</button>
     </div>
     <script src="script.js"></script>
   </body>
